@@ -101,7 +101,7 @@ void test(auto&& gen, AI::MatchBoxAI (&students)[N],
 		  unsigned bite_size) noexcept
 {
 
-	for(unsigned i = 0;  < bite_size; );
+
 }
 
 template<unsigned NStudents, unsigned NTrainers>
@@ -136,23 +136,6 @@ int main() {
 	auto get_student = [&student_index, &gen]{
 
 	};
-
-//	AI::MatchBoxAI mbi{"ai_file2.txt"};
-
-//	AI::MatchBoxAI mbais[10] = {
-//			{"/home/lambcoder/LinuxDev/Other/TerminalTicTacToe/src/ai_file.txt"},
-//			{"/home/lambcoder/LinuxDev/Other/TerminalTicTacToe/src/ai_file2.txt"},
-//			{"/home/lambcoder/LinuxDev/Other/TerminalTicTacToe/src/ai_file3.txt"},
-//			{"/home/lambcoder/LinuxDev/Other/TerminalTicTacToe/src/ai_file4.txt", true},
-//			{"/home/lambcoder/LinuxDev/Other/TerminalTicTacToe/src/ai_file5.txt", true},
-//			{"/home/lambcoder/LinuxDev/Other/TerminalTicTacToe/src/ai_file6.txt", true},
-//			{"/home/lambcoder/LinuxDev/Other/TerminalTicTacToe/src/ai_file7.txt"},
-//			{"/home/lambcoder/LinuxDev/Other/TerminalTicTacToe/src/ai_file8.txt", true},
-//			{"/home/lambcoder/LinuxDev/Other/TerminalTicTacToe/src/ai_file9.txt"},
-//			{"/home/lambcoder/LinuxDev/Other/TerminalTicTacToe/src/ai_file10.txt"}
-//	};
-//	MainAI* mai = &mbais[0];
-//	MainAI& mai = mbais[3];
 
 	MAKE_AIS;
 
